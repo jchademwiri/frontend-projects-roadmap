@@ -232,7 +232,7 @@ pnpm run dev
 
 ---
 
-## Step 5: Styling with Tailwind CSS
+### Styling with Tailwind CSS
 
 #### Key Tailwind Utilities Used:
 
@@ -243,9 +243,11 @@ pnpm run dev
 
 ---
 
-## Step 6: Running the Project
+## Step 5: Running the Project
 
 #### Run the development server:
+
+- Test your website
 
 ```bash
 pnpm run dev
