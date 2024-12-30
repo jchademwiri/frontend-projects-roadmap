@@ -33,8 +33,8 @@ pnpm install
 - Run the following commands to set it up:
 
 ```bash
-npm install -D tailwindcss postcss autoprefixer
-npx tailwindcss init
+pnpm install -D tailwindcss postcss autoprefixer
+pnpx tailwindcss init
 ```
 
 - Update the `tailwind.config.js` file:
@@ -56,7 +56,7 @@ npx tailwindcss init
 - Mention starting the dev server:
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 - ailwind CSS provides pre-built utility classes that simplify styling, and configuring the content ensures unused CSS is purged in production
@@ -244,7 +244,7 @@ npm run dev
 #### Run the development server:
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 - If you found this tutorial helpful, give it a thumbs up, subscribe to my channel, and let me know in the comments what you'd like to learn next!
