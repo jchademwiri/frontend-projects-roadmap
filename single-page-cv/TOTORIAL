@@ -21,8 +21,8 @@
 - Open your terminal and run:
 
 ```bash
-pnpm create vite@latest single-page-resume --template vanilla
-cd single-page-resume
+pnpm create vite@latest single-page-cv --template vanilla
+cd single-page-cv
 pnpm install
 ```
 
