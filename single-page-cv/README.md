@@ -1,4 +1,6 @@
-## [View Site - Single-Page CV](https://roadmap.sh/projects/single-page-cv)
+
+### [Visit Site - Single-Page CV](https://roadmap-single-page-cv.netlify.app/)
+#### [View Challenge - Single-Page CV](https://roadmap.sh/projects/single-page-cv)
 
 ---
 
@@ -25,7 +27,7 @@
 - Open your terminal and run:
 
 ```bash
-pnpm create vite@latest single-page-cv --template vanilla
+pnpm create vite@latest single-page-cv 
 cd single-page-cv
 pnpm install
 ```
