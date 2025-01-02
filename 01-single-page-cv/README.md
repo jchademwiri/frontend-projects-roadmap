@@ -10,7 +10,7 @@
 
 #### Welcome your viewers and introduce yourself.
 
-- "Hi everyone, welcome back to my channel! My name is [Your Name], and today I’ll show you how to create a professional single-page CV using HTML, Vite, and Tailwind CSS."
+- "Hi everyone, welcome back to my channel! My name is Jacob, and today I’ll show you how to create a professional single-page CV using HTML, Vite, and Tailwind CSS."
 
 #### Briefly explain the tools:
 
