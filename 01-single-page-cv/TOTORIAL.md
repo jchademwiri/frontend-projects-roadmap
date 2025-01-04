@@ -217,7 +217,7 @@ pnpm run dev
 
   ```html
   <!-- FOOTER  -->
-  <footer>
+  <footer class="py-4">
     <h3 class="text-green-600 font-bold">Across the Internet</h3>
     <p>
       <a href="https://linkedin.com/in/jchademwiri">LinkedIn</a> |
