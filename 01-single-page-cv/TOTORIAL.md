@@ -21,7 +21,7 @@
 - Open your terminal and run:
 
 ```bash
-pnpm create vite@latest single-page-cv --template vanilla
+pnpm create vite single-page-cv
 cd single-page-cv
 pnpm install
 ```
@@ -34,7 +34,7 @@ pnpm install
 
 ```bash
 pnpm install -D tailwindcss postcss autoprefixer
-pnpx tailwindcss init
+pnpx tailwindcss init -p
 ```
 
 - Update the `tailwind.config.js` file:
@@ -217,7 +217,7 @@ pnpm run dev
 
   ```html
   <!-- FOOTER  -->
-  <footer>
+  <footer class="py-4">
     <h3 class="text-green-600 font-bold">Across the Internet</h3>
     <p>
       <a href="https://linkedin.com/in/jchademwiri">LinkedIn</a> |
