@@ -8,29 +8,104 @@
     <title>Hame - Basic HTML Website</title>
   </head>
   <body>
-    <div>
-      <header>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="articles.html">Articles</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <section>
-          <h1>Welcome to My Website</h1>
+    <!-- Header with Navigation -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="articles.html">Articles</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Showcasing my journey in web development and beyond.</p>
+      <a href="projects.html">View My Projects</a>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        Hi, I'm Alex, a passionate web developer with experience in creating
+        user-friendly and accessible websites.
+      </p>
+    </section>
+
+    <!-- Projects Preview Section -->
+    <section id="projects">
+      <h2>Featured Projects</h2>
+      <ul>
+        <li>
+          <h3>Project 1: HTML Portfolio</h3>
           <p>
-            This is a simple HTML-only website to demonstrate proper structure.
+            A simple portfolio built with HTML and CSS to showcase my skills.
           </p>
-        </section>
-      </main>
-      <footer>
-        <p>&copy; 2025 All rights reserved</p>
-      </footer>
-    </div>
+        </li>
+        <li>
+          <h3>Project 2: Calculator App</h3>
+          <p>
+            A functional calculator built with JavaScript for basic operations.
+          </p>
+        </li>
+        <li>
+          <h3>Project 3: Quiz App</h3>
+          <p>
+            A dynamic quiz application that evaluates user knowledge
+            interactively.
+          </p>
+        </li>
+      </ul>
+      <a href="projects.html">View All Projects</a>
+    </section>
+
+    <!-- Articles Preview Section -->
+    <section id="articles">
+      <h2>Latest Articles</h2>
+      <ul>
+        <li>
+          <h3>Understanding Semantic HTML</h3>
+          <p>
+            Learn how to structure web pages for better accessibility and SEO.
+          </p>
+        </li>
+        <li>
+          <h3>10 Tips for Writing Clean Code</h3>
+          <p>
+            Practical advice to make your code more readable and maintainable.
+          </p>
+        </li>
+        <li>
+          <h3>Introduction to JavaScript ES6 Features</h3>
+          <p>
+            A beginner's guide to the powerful new features of modern
+            JavaScript.
+          </p>
+        </li>
+      </ul>
+      <a href="articles.html">Read More Articles</a>
+    </section>
+
+    <!-- Contact Call-to-Action Section -->
+    <section id="contact-cta">
+      <h2>Let's Connect</h2>
+      <p>Have a project in mind? I’d love to hear from you.</p>
+      <a href="contact.html">Contact Me</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>&copy; 2025 Alex's Portfolio. All rights reserved.</p>
+      <ul>
+        <li><a href="https://twitter.com/">Twitter</a></li>
+        <li><a href="https://linkedin.com/">LinkedIn</a></li>
+        <li><a href="https://github.com/">GitHub</a></li>
+      </ul>
+    </footer>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
