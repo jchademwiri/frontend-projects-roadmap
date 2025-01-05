@@ -7,104 +7,164 @@
     <meta name="description" content="A simple HTML-only website project" />
     <title>Hame - Basic HTML Website</title>
   </head>
-  <body>
+  <body class="bg-gray-50 text-gray-900 font-sans">
     <!-- Header with Navigation -->
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="articles.html">Articles</a></li>
-          <li><a href="contact.html">Contact</a></li>
+    <header class="bg-blue-600 text-white shadow-md">
+      <nav class="container mx-auto p-4">
+        <ul class="flex justify-center space-x-6">
+          <li><a href="index.html" class="hover:text-blue-300">Home</a></li>
+          <li>
+            <a href="projects.html" class="hover:text-blue-300">Projects</a>
+          </li>
+          <li>
+            <a href="articles.html" class="hover:text-blue-300">Articles</a>
+          </li>
+          <li>
+            <a href="contact.html" class="hover:text-blue-300">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
 
     <!-- Hero Section -->
-    <section id="hero">
-      <h1>Welcome to My Portfolio</h1>
-      <p>Showcasing my journey in web development and beyond.</p>
-      <a href="projects.html">View My Projects</a>
+    <section id="hero" class="text-center bg-blue-600 text-white py-20">
+      <h1 class="text-4xl font-bold mb-4">Welcome to My Portfolio</h1>
+      <p class="text-xl mb-6">
+        Showcasing my journey in web development and beyond.
+      </p>
+      <a
+        href="projects.html"
+        class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200"
+        >View My Projects</a
+      >
     </section>
 
     <!-- About Me Section -->
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-        Hi, I'm Alex, a passionate web developer with experience in creating
+    <section id="about" class="container mx-auto py-16 px-4">
+      <h2 class="text-3xl font-semibold mb-4 text-center">About Me</h2>
+      <p class="text-lg text-gray-700 text-center">
+        Hi, I'm Jack, a passionate web developer with experience in creating
         user-friendly and accessible websites.
       </p>
     </section>
 
     <!-- Projects Preview Section -->
-    <section id="projects">
-      <h2>Featured Projects</h2>
-      <ul>
-        <li>
-          <h3>Project 1: HTML Portfolio</h3>
-          <p>
+    <section id="projects" class="bg-gray-100 py-16 px-4">
+      <h2 class="text-3xl font-semibold mb-6 text-center">Featured Projects</h2>
+      <ul class="space-y-8">
+        <li
+          class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all"
+        >
+          <h3 class="text-2xl font-semibold mb-2">Project 1: HTML Portfolio</h3>
+          <p class="text-gray-700 mb-4">
             A simple portfolio built with HTML and CSS to showcase my skills.
           </p>
         </li>
-        <li>
-          <h3>Project 2: Calculator App</h3>
-          <p>
+        <li
+          class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all"
+        >
+          <h3 class="text-2xl font-semibold mb-2">Project 2: Calculator App</h3>
+          <p class="text-gray-700 mb-4">
             A functional calculator built with JavaScript for basic operations.
           </p>
         </li>
-        <li>
-          <h3>Project 3: Quiz App</h3>
-          <p>
+        <li
+          class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all"
+        >
+          <h3 class="text-2xl font-semibold mb-2">Project 3: Quiz App</h3>
+          <p class="text-gray-700 mb-4">
             A dynamic quiz application that evaluates user knowledge
             interactively.
           </p>
         </li>
       </ul>
-      <a href="projects.html">View All Projects</a>
+      <div class="text-center mt-8">
+        <a
+          href="projects.html"
+          class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-500"
+          >View All Projects</a
+        >
+      </div>
     </section>
 
     <!-- Articles Preview Section -->
-    <section id="articles">
-      <h2>Latest Articles</h2>
-      <ul>
-        <li>
-          <h3>Understanding Semantic HTML</h3>
-          <p>
+    <section id="articles" class="py-16 px-4">
+      <h2 class="text-3xl font-semibold mb-6 text-center">Latest Articles</h2>
+      <ul class="space-y-8">
+        <li
+          class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all"
+        >
+          <h3 class="text-2xl font-semibold mb-2">
+            Understanding Semantic HTML
+          </h3>
+          <p class="text-gray-700 mb-4">
             Learn how to structure web pages for better accessibility and SEO.
           </p>
         </li>
-        <li>
-          <h3>10 Tips for Writing Clean Code</h3>
-          <p>
+        <li
+          class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all"
+        >
+          <h3 class="text-2xl font-semibold mb-2">
+            10 Tips for Writing Clean Code
+          </h3>
+          <p class="text-gray-700 mb-4">
             Practical advice to make your code more readable and maintainable.
           </p>
         </li>
-        <li>
-          <h3>Introduction to JavaScript ES6 Features</h3>
-          <p>
+        <li
+          class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-all"
+        >
+          <h3 class="text-2xl font-semibold mb-2">
+            Introduction to JavaScript ES6 Features
+          </h3>
+          <p class="text-gray-700 mb-4">
             A beginner's guide to the powerful new features of modern
             JavaScript.
           </p>
         </li>
       </ul>
-      <a href="articles.html">Read More Articles</a>
+      <div class="text-center mt-8">
+        <a
+          href="articles.html"
+          class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-500"
+          >Read More Articles</a
+        >
+      </div>
     </section>
 
     <!-- Contact Call-to-Action Section -->
-    <section id="contact-cta">
-      <h2>Let's Connect</h2>
-      <p>Have a project in mind? I’d love to hear from you.</p>
-      <a href="contact.html">Contact Me</a>
+    <section id="contact-cta" class="bg-blue-600 text-white py-16 text-center">
+      <h2 class="text-3xl font-semibold mb-4">Let's Connect</h2>
+      <p class="text-xl mb-6">
+        Have a project in mind? I’d love to hear from you.
+      </p>
+      <a
+        href="contact.html"
+        class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-gray-200"
+        >Contact Me</a
+      >
     </section>
 
     <!-- Footer -->
-    <footer>
-      <p>&copy; 2025 Alex's Portfolio. All rights reserved.</p>
-      <ul>
-        <li><a href="https://twitter.com/">Twitter</a></li>
-        <li><a href="https://linkedin.com/">LinkedIn</a></li>
-        <li><a href="https://github.com/">GitHub</a></li>
-      </ul>
+    <footer class="bg-gray-800 text-white py-6">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2025 Jack's Portfolio. All rights reserved.</p>
+        <ul class="flex justify-center space-x-6 mt-4">
+          <li>
+            <a href="https://twitter.com/" class="hover:text-gray-400"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a href="https://linkedin.com/" class="hover:text-gray-400"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/" class="hover:text-gray-400">GitHub</a>
+          </li>
+        </ul>
+      </div>
     </footer>
     <script type="module" src="/src/main.ts"></script>
   </body>
