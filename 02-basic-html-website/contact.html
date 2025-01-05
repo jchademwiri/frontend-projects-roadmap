@@ -9,73 +9,109 @@
     />
     <title>Contact - My Portfolio</title>
   </head>
-  <body>
+  <body class="bg-white text-gray-800">
     <!-- Header with Navigation -->
-    <header>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="articles.html">Articles</a></li>
-          <li><a href="contact.html">Contact</a></li>
+    <header class="bg-blue-600 text-white">
+      <nav class="container mx-auto p-4">
+        <ul class="flex justify-center space-x-6">
+          <li><a href="index.html" class="hover:text-blue-300">Home</a></li>
+          <li>
+            <a href="projects.html" class="hover:text-blue-300">Projects</a>
+          </li>
+          <li>
+            <a href="articles.html" class="hover:text-blue-300">Articles</a>
+          </li>
+          <li>
+            <a href="contact.html" class="hover:text-blue-300">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
 
     <!-- Contact Section -->
-    <main>
-      <h1>Contact Me</h1>
-      <p>
+    <main class="container mx-auto my-10 px-4 transition-all duration-300">
+      <h1 class="text-3xl font-bold text-center mb-4">Contact Me</h1>
+      <p class="text-center text-gray-600 mb-8">
         If you’d like to collaborate, have a question, or just want to say hi,
         feel free to reach out!
       </p>
 
-      <section id="contact-form">
-        <form action="#" method="post">
+      <section
+        id="contact-form"
+        class="bg-white p-8 rounded shadow-md max-w-xl mx-auto transition-all duration-300"
+      >
+        <form action="#" method="post" class="space-y-6">
           <div>
-            <label for="name">Name:</label>
+            <label for="name" class="block text-gray-700 font-medium mb-2"
+              >Name:</label
+            >
             <input
               type="text"
               id="name"
               name="name"
               placeholder="Your Name"
               required
+              class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-600 focus:outline-none"
             />
           </div>
           <div>
-            <label for="email">Email:</label>
+            <label for="email" class="block text-gray-700 font-medium mb-2"
+              >Email:</label
+            >
             <input
               type="email"
               id="email"
               name="email"
               placeholder="Your Email"
               required
+              class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-600 focus:outline-none"
             />
           </div>
           <div>
-            <label for="message">Message:</label>
+            <label for="message" class="block text-gray-700 font-medium mb-2"
+              >Message:</label
+            >
             <textarea
               id="message"
               name="message"
               placeholder="Write your message here..."
               rows="5"
               required
+              class="w-full px-4 py-2 border border-gray-300 rounded focus:ring-2 focus:ring-blue-600 focus:outline-none"
             ></textarea>
           </div>
-          <button type="submit">Send Message</button>
+          <button
+            type="submit"
+            class="w-full bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-600"
+          >
+            Send Message
+          </button>
         </form>
       </section>
     </main>
 
     <!-- Footer -->
-    <footer>
-      <p>&copy; 2025 Alex's Portfolio. All rights reserved.</p>
-      <ul>
-        <li><a href="https://twitter.com/">Twitter</a></li>
-        <li><a href="https://linkedin.com/">LinkedIn</a></li>
-        <li><a href="https://github.com/">GitHub</a></li>
-      </ul>
+    <footer class="bg-gray-800 text-white py-6 transition-all duration-300">
+      <div class="container mx-auto text-center space-y-4">
+        <p>&copy; 2025 Jack's Portfolio. All rights reserved.</p>
+        <ul class="flex justify-center space-x-4">
+          <li>
+            <a href="https://twitter.com/" class="hover:text-gray-400"
+              >Twitter</a
+            >
+          </li>
+          <li>
+            <a href="https://linkedin.com/" class="hover:text-gray-400"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/" class="hover:text-gray-400">GitHub</a>
+          </li>
+        </ul>
+      </div>
     </footer>
+
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
